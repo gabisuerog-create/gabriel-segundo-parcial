@@ -1,1 +1,5 @@
-
+Inicio
+   Leer n, m, q
+   Si n, m o q estan fuera de dominio entonces imprimir ERROR y terminar.
+   Para i = 0 hasta n-1:
+      Leer id, nombre, tipo, p, y las m muestras.
