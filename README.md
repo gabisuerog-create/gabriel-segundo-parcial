@@ -3,11 +3,16 @@
 #Repositorio PMC16-2026-1107
 
 #Nombre: Gabriel jesus suero Gonzalez
+
 #Matricula: 2026-1107
+
 #Asignatura: programacion para mecatronicos
+
 #correo: 20261107@itla.edu.do
 
+
 ##Explicacion del procedimiento y decisiones de diseno
+
 El simulador procesa registros mecatronicos mediante estrucuras anidadas ("Configuracion" dentro de "UnidadMecatronica") y matrices estaticas "muestras[20][8].
 
 1:**Validacion temprana: Toda la entrada estandar es leida y validada rigurosamente ('n','m','q', rangos de 'p', muestras entre 0 y 100, unicidad de ID y ausencia de tokens residuales). ante cualquier fallo, emite "ERROR" y finaliza.
